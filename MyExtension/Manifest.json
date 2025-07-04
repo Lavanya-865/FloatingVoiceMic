@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Floating Voice Mic",
+  "version": "1.0",
+  "description": "Click the mic on any page to give voice commands",
+  "permissions": ["tabs", "scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}

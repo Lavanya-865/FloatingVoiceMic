@@ -1,0 +1,18 @@
+#floating-voice-mic {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+  background: #656565;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+#floating-voice-mic:hover {
+  background: #cccccc;
+}
